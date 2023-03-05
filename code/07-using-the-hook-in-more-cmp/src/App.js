@@ -21,7 +21,7 @@ function App() {
     };
 
     fetchTasks(
-      { url: 'https://react-http-6b4a6.firebaseio.com/tasks.json' },
+      { url: 'https://enhanced-watch-374406-default-rtdb.firebaseio.com/tasks.json' },
       transformTasks
     );
   }, [fetchTasks]);
